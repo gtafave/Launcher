@@ -10,10 +10,12 @@ export const window = {
     title: 'Aurora Launcher',
 };
 
+import publicKey from "./public.pem";
+
 export const api = {
-    ws: 'ws://127.0.0.1:1370/ws',
-    web: 'http://127.0.0.1:1370',
-    // extraToken: token,
+  ws: "ws://147.45.215.42:1370/ws",
+  web: "http://147.45.215.42:1370",
+  publicKey,
 };
 
 export const appPath = '.aurora-launcher';
